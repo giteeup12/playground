@@ -1,0 +1,34 @@
+package main
+
+import (
+	"fmt"	
+        "math"
+)
+
+func main() {
+        i := 2
+        ij := "a"
+        ijk := 1.00
+        fmt.Println(i)
+        fmt.Println(ij)
+        fmt.Printf("%.2f\n", ijk)
+	fmt.Println("Hello, playground")	
+        fmt.Println("$$")
+        fmt.Println(math.Pi)
+        var xdeca float64
+        for x:=1.00; x < 2.00; x++ {
+           xdeca = x
+           fmt.Printf("Hello: %.4f\n",x)
+           fmt.Printf("dec %.3f", xdeca)
+         }  		
+        v := 42.0 // change me!
+	fmt.Printf("v is of type %T\n", v)
+	const bign = 1 << 2
+	fmt.Printf("print big or go home: %d", bign)
+	for bigloop := 1 ; bigloop < 9 ; bigloop++ {
+	  fmt.Printf("\n print next a %d", 1 << bigloop)
+  	 
+	}
+	
+	
+}
